@@ -1,21 +1,6 @@
-let estudiantes = [
-    {
-      nombre: 'Alvaro',
-      promedio : 9,
-      curso : 'Android',
-    },
-    {
-      nombre: 'Daniel',
-      promedio : 6,
-      curso : 'Full Stack',
-    },
-    {
-      nombre: 'Alexis',
-      promedio : 3,
-      curso : 'iOS',
-    },
-  ]
-  
-  estudiantes.push ({nombre: 'Juan', promedio: 5, curso: 'iOS'}, {nombre: 'Miguel', promedio: 2, curso: 'Android'})
+let diasHabiles = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sábado', 'domingo']
 
-  console.log(estudiantes)
+let finDeSemana = diasHabiles.splice(5,2) // ['sábado', 'domingo']
+
+diasHabiles // ['lunes', 'martes', 'miercoles', 'jueves', 'viernes]
+
